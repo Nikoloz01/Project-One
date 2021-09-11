@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cont{
+    width:1340px ;
+    border:2px solid black;
+    margin:0%;
+    padding:0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    
+    
+}
+.title{
+    text-align: center;
+    padding: 15x;
+    
+}
+#eve{
+    width: 200px;
+    height: 100px; 
+    border-radius: 100%;
+
+}
+#zed{
+    width: 200px;
+    height: 100px;
+    border-radius: 100%;
+}
+#kayn{
+    width:200px;
+    height: 100px;
+    border-radius: 100%;
+}
+#cont1{
+    width: 95%;
+    border: 1px solid black;
+    text-align: left;
+}
+.text1,.text2, .text3{
+    font-family: cursive;
+    
+}
+.title{
+    color: rgb(226, 19, 81);
+    
+}
+  @media(max-width:1200px){
+      #cont{
+          width: 95%;;
+          display: block;
+          transition: 0.5s;
+      }
+  }
+  @media( max-width:450px){
+      .card{
+          width:100%;
+          margin:0px auto;
+      }
+  }
+  .logo{
+      width:700px;
+      height: 300px;
+  }
+  #eve:hover{
+
+   width:400px;
+   height:200px;
+   border-radius: 0%;
+   transition: 0.5s;
+   }
+  #zed:hover{
+    width: 400px;
+    height: 200px;
+    border-radius: 0%;
+    transition:0.5s;
+}
+#kayn:hover{
+    width: 400px;
+    height:200px;
+    border-radius: 0%;
+    transition:0.5s;
+}
+.every{
+    background-color: black;
+}
