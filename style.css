@@ -4,22 +4,23 @@
 }
 
 #cont{
-    width:1340px ;
-    border:2px solid white;
+    width:100%px ;
+    border:2px solid black;
     margin:0%;
     padding:0%;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
     
 
 }
 .card{
-    width: 400px;
-    border: 2px solid white;
+    
+    border: 2px solid black;
     margin: 20px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     
     
 }
@@ -65,14 +66,15 @@
       }
   }
   @media( max-width:450px){
-      .card{
-          width:100%;
-          margin:0px auto;
-      }
+    .card{
+        width:100%;
+        margin:0px auto;
+    }
   }
   .logo{
-      width:700px;
+      width:600px;
       height: 300px;
+      display: flex;
   }
   #eve:hover{
 
